@@ -13,13 +13,20 @@ $variable_1 = [
   'key5' => '80'
 ];
 $variable_2 = [
-  'key6' => 'разработчик',
-  'key7' => '2019',
+  'key6' => 'Разработчик передней части',
+  'key7' => 'Feb 2019',
   'key8' => 'Тестировщик',
   'key9' => 'nothing.com',
-  'key10' => '2018',
+  'key10' => 'Okt 2018',
   'key11' => 'Графический дизайнер',
-  'key12' => '2011'
+  'key12' => 'Apr 2010',
+  'key13' => 'по настоящее время',
+  'key14' => 'чего я там только не делал',
+  'key15' => 'корабли лавировали, лавировали, да не вылавировали',
+  'key16' => 'Jan 2013',
+  'key17' => 'Sep 2011',
+  'key18' => 'neverdesignsomething.com',
+  'key19' => 'о! у нас был очень крутой дизайн',
 ];
 ?>
 
@@ -110,21 +117,21 @@ $variable_2 = [
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End <?php echo $variable_2['key6'];?> </b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan <?php echo $variable_2['key7'];?> - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b><?php echo $variable_2['key6'];?> </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> <?php echo $variable_2['key7'];?> - <span class="w3-tag w3-teal w3-round"><?php echo $variable_2['key13'];?></span></h6>
+          <p> <?php echo $variable_2['key14'];?></p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b><?php echo $variable_2['key8'];?> / <?php echo $variable_2['key9'];?></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec <?php echo $variable_2['key10'];?></h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $variable_2['key16'];?> - <?php echo $variable_2['key10'];?></h6>
+          <p> <?php echo $variable_2['key15'];?></p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b><?php echo $variable_2['key11'];?> / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun <?php echo $variable_2['key12'];?> - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+          <h5 class="w3-opacity"><b><?php echo $variable_2['key11'];?> / <?php echo $variable_2['key18'];?></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> <?php echo $variable_2['key12'];?> - <?php echo $variable_2['key17'];?></h6>
+          <p> <?php echo $variable_2['key19'];?> </p><br>
         </div>
       </div>
 
